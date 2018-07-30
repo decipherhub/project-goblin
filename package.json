@@ -1,10 +1,8 @@
 {
   "name": "project-goblin",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Prototype for (DE)CIPHER CHAIN",
-  "main": "index.js",
   "repository": "git@github.com:decipherhub/project-goblin.git",
-  "author": "wooklym <wooklym@gmail.com>",
   "dependencies": {
     "koa": "^2.5.2",
     "koa-body": "^4.0.4",
