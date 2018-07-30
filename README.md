@@ -1,0 +1,3 @@
+# PROJECT GOBLIN
+
+Prototype for CIPHER CHAIN
