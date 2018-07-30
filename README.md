@@ -1,3 +1,2 @@
 # PROJECT GOBLIN
-
-Prototype for CIPHER CHAIN
+Prototype for (DE)CIPHER CHAIN

@@ -1,0 +1,42 @@
+{
+  "name": "project-goblin",
+  "version": "1.0.0",
+  "description": "Prototype for (DE)CIPHER CHAIN",
+  "main": "index.js",
+  "repository": "git@github.com:decipherhub/project-goblin.git",
+  "author": "wooklym <wooklym@gmail.com>",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-body": "^4.0.4",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "@types/koa": "^2.0.46",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-logger": "^3.1.0",
+    "@types/koa-router": "^7.0.31",
+    "@types/node": "^8.0.9",
+    "@types/ws": "^3.0.1",
+    "jest": "^23.4.2",
+    "jest-cli": "^23.4.2",
+    "nodemon": "^1.17.5",
+    "ts-node": "^6.1.0",
+    "tslint": "^5.10.0",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "tsutils": "^2.27.1",
+    "typescript": "^2.9.1"
+  },
+  "scripts": {
+    "start": "nodemon --watch src -e ts --ignore src/**/*.spec.ts --ignore src/**/*.test.ts --exec ts-node src/main.ts",
+    "build": "tsc -p tsconfig.release.json",
+    "cover": "npm run test -- --coverage",
+    "test": "npm run test-only",
+    "test-only": "jest --coverage --no-cache",
+    "test:watch": "jest --watch --verbose --no-cache"
+  },
+  "license": "MIT"
+}
